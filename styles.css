@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: inline;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(155, 167, 168);
+    background-color: rgb(11, 11, 25);
+    padding: 20px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(22, 22, 29, 0.8);
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    
+}
+
+li a:hover {
+    background-color:rgb(22, 22, 29) ;
+}
+
+.active{
+    background-color: rgb(73, 26, 26);
+}
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about {
+    color: brown;
+    padding: 10px;
+}
+
+.details {
+    padding: 10px;
+}
